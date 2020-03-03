@@ -1,4 +1,5 @@
 class Doctor
+
   attr_accessor :name
 
   @@all = []
@@ -13,7 +14,8 @@ class Doctor
   end
 
   def appointments
-
+    Appointment.all.select do |appointment|
+    end
   end
 
   def new_appointment
@@ -23,5 +25,5 @@ class Doctor
   def patients
 
   end
-  
+
 end

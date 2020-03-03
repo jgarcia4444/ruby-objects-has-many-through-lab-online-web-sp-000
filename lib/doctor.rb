@@ -24,7 +24,7 @@ class Doctor
   end
 
   def patients
-
+    self.appointments.map
   end
 
 end

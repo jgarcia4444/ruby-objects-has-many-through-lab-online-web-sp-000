@@ -23,10 +23,8 @@ class Artist
   end
 
   def genres
-    my_genres = self.songs.select do |song|
-      song.genre
+    genre_array = songs.each do |song|
     end
-    my_genres
   end
 
 end

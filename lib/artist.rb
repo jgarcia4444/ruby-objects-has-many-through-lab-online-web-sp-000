@@ -23,10 +23,8 @@ class Artist
   end
 
   def genres
-    test = songs.select do |song|
-      song.genre.name
+    songs.select do |song|
     end
-    print test
   end
 
 end

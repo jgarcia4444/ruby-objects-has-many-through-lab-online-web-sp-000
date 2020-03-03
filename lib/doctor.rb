@@ -24,9 +24,10 @@ class Doctor
   end
 
   def patients
-    print self.appointments.map do |appointment|
+    p = self.appointments.map do |appointment|
       appointment.patient
     end
+    print p
   end
 
 end

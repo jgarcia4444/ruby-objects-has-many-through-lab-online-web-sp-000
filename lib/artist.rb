@@ -23,10 +23,8 @@ class Artist
   end
 
   def genres
-    genre_array = songs.each do |song|
-      song.genre
+    songs.map do |song|
     end
-    genre_array
   end
 
 end

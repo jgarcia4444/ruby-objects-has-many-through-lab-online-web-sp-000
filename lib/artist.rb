@@ -24,7 +24,7 @@ class Artist
 
   def genres
     songs.select do |song|
-      song.genre
+      print song.genre
     end
   end
 

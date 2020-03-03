@@ -23,9 +23,10 @@ class Artist
   end
 
   def genres
-    self.songs.select do |song|
+    my_genres = self.songs.select do |song|
       song.genre
     end
+    my_genres
   end
 
 end

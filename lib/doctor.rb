@@ -23,4 +23,5 @@ class Doctor
   def patients
 
   end
+  
 end

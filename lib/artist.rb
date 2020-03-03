@@ -24,7 +24,9 @@ class Artist
 
   def genres
     genre_array = songs.each do |song|
+      song.genre
     end
+    genre_array
   end
 
 end
